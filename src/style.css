@@ -1,22 +1,40 @@
 body {
-  background-color: rgb(249, 239, 252);
+  background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/019/979/145/small/black-and-white-world-map-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/019/979/145/small/black-and-white-world-map-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   text-align: center;
-  font-size: 38px;
+  font-size: 40px;
 }
 select {
   display: block;
+  font-size: 20px;
   width: 100%;
   border-radius: 5px;
   padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  border-color: rgb(240, 10, 171);
+  background-color: white;
+  border-style: ridge;
 }
 
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+  color: rgb(206, 3, 162);
+}
+a {
+  color: rgb(206, 3, 162);
 }
 .date {
   opacity: 0.8;
@@ -26,12 +44,13 @@ h2 {
   vertical-align: middle;
 }
 .container {
-  max-width: 600px;
+  max-width: 800px;
   background: white;
   padding: 30px;
   margin: 60px auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  opacity: 0.91;
 }
 .city {
   display: flex;
